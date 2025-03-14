@@ -74,6 +74,23 @@ def create_json(data: dict, out_file: str):
         json.dump(entries_json, f, indent=4)
 
 
+vanilla_data = {
+    'target': 'Maps/springobjects',
+    'from_file': 'Vanilla/assets/springobjects.png',
+    'sprite_size_px': 16,
+    'sprites_per_row': 24,
+    'entries': [
+        ('Banana Sapling', 69, Special.SAPLING),
+        ('Cherry Sapling', 628, Special.SAPLING),
+        ('Apricot Sapling', 629, Special.SAPLING),
+        ('Orange Sapling', 630, Special.SAPLING),
+        ('Peach Sapling', 631, Special.SAPLING),
+        ('Pomegranate Sapling', 632, Special.SAPLING),
+        ('Apple Sapling', 633, Special.SAPLING),
+        ('Mango Sapling', 835, Special.SAPLING)
+    ]
+}
+
 more_crops_data = {
     'target': 'Cornucopia.MoreCrops/Objects',
     'from_file': 'CornucopiaMoreCrops/assets/objects.png',
@@ -254,5 +271,6 @@ more_flowers_data = {
     ]
 }
 
+create_json(vanilla_data, 'Vanilla/data/springobjects.json')
 create_json(more_crops_data, 'CornucopiaMoreCrops/data/objects.json')
 create_json(more_flowers_data, 'CornucopiaMoreFlowers/data/objects.json')

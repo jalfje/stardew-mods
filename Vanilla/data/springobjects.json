@@ -1,0 +1,180 @@
+{
+    "Changes": [
+        {
+            "$comment": "Banana Sapling",
+            "When": {
+                "Seasonal Saplings": true
+            },
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Maps/springobjects",
+            "FromFile": "Vanilla/assets/springobjects.png",
+            "FromArea": {
+                "X": 336,
+                "Y": 32,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 336,
+                "Y": 32,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Cherry Sapling",
+            "When": {
+                "Seasonal Saplings": true
+            },
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Maps/springobjects",
+            "FromFile": "Vanilla/assets/springobjects.png",
+            "FromArea": {
+                "X": 64,
+                "Y": 416,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 64,
+                "Y": 416,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Apricot Sapling",
+            "When": {
+                "Seasonal Saplings": true
+            },
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Maps/springobjects",
+            "FromFile": "Vanilla/assets/springobjects.png",
+            "FromArea": {
+                "X": 80,
+                "Y": 416,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 80,
+                "Y": 416,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Orange Sapling",
+            "When": {
+                "Seasonal Saplings": true
+            },
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Maps/springobjects",
+            "FromFile": "Vanilla/assets/springobjects.png",
+            "FromArea": {
+                "X": 96,
+                "Y": 416,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 96,
+                "Y": 416,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Peach Sapling",
+            "When": {
+                "Seasonal Saplings": true
+            },
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Maps/springobjects",
+            "FromFile": "Vanilla/assets/springobjects.png",
+            "FromArea": {
+                "X": 112,
+                "Y": 416,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 112,
+                "Y": 416,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Pomegranate Sapling",
+            "When": {
+                "Seasonal Saplings": true
+            },
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Maps/springobjects",
+            "FromFile": "Vanilla/assets/springobjects.png",
+            "FromArea": {
+                "X": 128,
+                "Y": 416,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 128,
+                "Y": 416,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Apple Sapling",
+            "When": {
+                "Seasonal Saplings": true
+            },
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Maps/springobjects",
+            "FromFile": "Vanilla/assets/springobjects.png",
+            "FromArea": {
+                "X": 144,
+                "Y": 416,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 144,
+                "Y": 416,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Mango Sapling",
+            "When": {
+                "Seasonal Saplings": true
+            },
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Maps/springobjects",
+            "FromFile": "Vanilla/assets/springobjects.png",
+            "FromArea": {
+                "X": 304,
+                "Y": 544,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 304,
+                "Y": 544,
+                "Width": 16,
+                "Height": 16
+            }
+        }
+    ]
+}

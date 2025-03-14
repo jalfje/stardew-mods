@@ -9,10 +9,14 @@
         "Seasonal Saplings": {
             "AllowValues": "true, false",
             "Default": "true",
-            "Description": "Change saplings to have bags colored based on harvest season"
+            "Description": "Change fruit tree saplings to have bags colored based on harvest season"
         }
     },
     "Changes": [
+        {
+            "Action": "Include",
+            "FromFile": "Vanilla/data/springobjects.json"
+        },
         {
             "Action": "Include",
             "When": {

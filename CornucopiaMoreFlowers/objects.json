@@ -1,13 +1,916 @@
 {
     "Changes": [
-        // Blue Mist
         {
+            "$comment": "Blue Mist",
             "Action": "EditImage",
             "PatchMode": "Replace",
             "Target": "Cornucopia.MoreFlowers/Objects",
             "FromFile": "CornucopiaMoreFlowers/assets/objects.png",
-            "FromArea": { "X": 48, "Y": 0, "Width": 16, "Height": 16 }, 
-            "ToArea": { "X": 48, "Y": 0, "Width": 16, "Height": 16 }
+            "FromArea": {
+                "X": 48,
+                "Y": 0,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 48,
+                "Y": 0,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Chrysanthemum",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.MoreFlowers/Objects",
+            "FromFile": "CornucopiaMoreFlowers/assets/objects.png",
+            "FromArea": {
+                "X": 128,
+                "Y": 112,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 128,
+                "Y": 112,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Iris",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.MoreFlowers/Objects",
+            "FromFile": "CornucopiaMoreFlowers/assets/objects.png",
+            "FromArea": {
+                "X": 272,
+                "Y": 16,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 272,
+                "Y": 16,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Lily",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.MoreFlowers/Objects",
+            "FromFile": "CornucopiaMoreFlowers/assets/objects.png",
+            "FromArea": {
+                "X": 80,
+                "Y": 96,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 80,
+                "Y": 96,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Lotus",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.MoreFlowers/Objects",
+            "FromFile": "CornucopiaMoreFlowers/assets/objects.png",
+            "FromArea": {
+                "X": 240,
+                "Y": 16,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 240,
+                "Y": 16,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Morning Glory",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.MoreFlowers/Objects",
+            "FromFile": "CornucopiaMoreFlowers/assets/objects.png",
+            "FromArea": {
+                "X": 208,
+                "Y": 16,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 208,
+                "Y": 16,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Orchid",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.MoreFlowers/Objects",
+            "FromFile": "CornucopiaMoreFlowers/assets/objects.png",
+            "FromArea": {
+                "X": 176,
+                "Y": 96,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 176,
+                "Y": 96,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Pansy",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.MoreFlowers/Objects",
+            "FromFile": "CornucopiaMoreFlowers/assets/objects.png",
+            "FromArea": {
+                "X": 224,
+                "Y": 112,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 224,
+                "Y": 112,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Pink Cat",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.MoreFlowers/Objects",
+            "FromFile": "CornucopiaMoreFlowers/assets/objects.png",
+            "FromArea": {
+                "X": 208,
+                "Y": 0,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 208,
+                "Y": 0,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Rose",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.MoreFlowers/Objects",
+            "FromFile": "CornucopiaMoreFlowers/assets/objects.png",
+            "FromArea": {
+                "X": 32,
+                "Y": 96,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 32,
+                "Y": 96,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Bee Balm",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.MoreFlowers/Objects",
+            "FromFile": "CornucopiaMoreFlowers/assets/objects.png",
+            "FromArea": {
+                "X": 144,
+                "Y": 0,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 144,
+                "Y": 0,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Blue Bonnet",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.MoreFlowers/Objects",
+            "FromFile": "CornucopiaMoreFlowers/assets/objects.png",
+            "FromArea": {
+                "X": 304,
+                "Y": 16,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 304,
+                "Y": 16,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Buttercup",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.MoreFlowers/Objects",
+            "FromFile": "CornucopiaMoreFlowers/assets/objects.png",
+            "FromArea": {
+                "X": 112,
+                "Y": 16,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 112,
+                "Y": 16,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Calico Rose",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.MoreFlowers/Objects",
+            "FromFile": "CornucopiaMoreFlowers/assets/objects.png",
+            "FromArea": {
+                "X": 112,
+                "Y": 64,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 112,
+                "Y": 64,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Camellia",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.MoreFlowers/Objects",
+            "FromFile": "CornucopiaMoreFlowers/assets/objects.png",
+            "FromArea": {
+                "X": 176,
+                "Y": 16,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 176,
+                "Y": 16,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Carnation",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.MoreFlowers/Objects",
+            "FromFile": "CornucopiaMoreFlowers/assets/objects.png",
+            "FromArea": {
+                "X": 224,
+                "Y": 96,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 224,
+                "Y": 96,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Chamomile",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.MoreFlowers/Objects",
+            "FromFile": "CornucopiaMoreFlowers/assets/objects.png",
+            "FromArea": {
+                "X": 80,
+                "Y": 0,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 80,
+                "Y": 0,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Clary Sage",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.MoreFlowers/Objects",
+            "FromFile": "CornucopiaMoreFlowers/assets/objects.png",
+            "FromArea": {
+                "X": 112,
+                "Y": 0,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 112,
+                "Y": 0,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Clematis",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.MoreFlowers/Objects",
+            "FromFile": "CornucopiaMoreFlowers/assets/objects.png",
+            "FromArea": {
+                "X": 80,
+                "Y": 16,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 80,
+                "Y": 16,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Dahlia",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.MoreFlowers/Objects",
+            "FromFile": "CornucopiaMoreFlowers/assets/objects.png",
+            "FromArea": {
+                "X": 80,
+                "Y": 112,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 80,
+                "Y": 112,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Daisy",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.MoreFlowers/Objects",
+            "FromFile": "CornucopiaMoreFlowers/assets/objects.png",
+            "FromArea": {
+                "X": 144,
+                "Y": 16,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 144,
+                "Y": 16,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Fairy Duster",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.MoreFlowers/Objects",
+            "FromFile": "CornucopiaMoreFlowers/assets/objects.png",
+            "FromArea": {
+                "X": 304,
+                "Y": 0,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 304,
+                "Y": 0,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Fall Rose",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.MoreFlowers/Objects",
+            "FromFile": "CornucopiaMoreFlowers/assets/objects.png",
+            "FromArea": {
+                "X": 240,
+                "Y": 48,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 240,
+                "Y": 48,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Freesia",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.MoreFlowers/Objects",
+            "FromFile": "CornucopiaMoreFlowers/assets/objects.png",
+            "FromArea": {
+                "X": 176,
+                "Y": 112,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 176,
+                "Y": 112,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Geranium",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.MoreFlowers/Objects",
+            "FromFile": "CornucopiaMoreFlowers/assets/objects.png",
+            "FromArea": {
+                "X": 144,
+                "Y": 48,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 144,
+                "Y": 48,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Honeysuckle",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.MoreFlowers/Objects",
+            "FromFile": "CornucopiaMoreFlowers/assets/objects.png",
+            "FromArea": {
+                "X": 16,
+                "Y": 16,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 16,
+                "Y": 16,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Hyacinth",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.MoreFlowers/Objects",
+            "FromFile": "CornucopiaMoreFlowers/assets/objects.png",
+            "FromArea": {
+                "X": 128,
+                "Y": 96,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 128,
+                "Y": 96,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Hydrangea",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.MoreFlowers/Objects",
+            "FromFile": "CornucopiaMoreFlowers/assets/objects.png",
+            "FromArea": {
+                "X": 272,
+                "Y": 112,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 272,
+                "Y": 112,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Larkspur",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.MoreFlowers/Objects",
+            "FromFile": "CornucopiaMoreFlowers/assets/objects.png",
+            "FromArea": {
+                "X": 272,
+                "Y": 96,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 272,
+                "Y": 96,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Lavender",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.MoreFlowers/Objects",
+            "FromFile": "CornucopiaMoreFlowers/assets/objects.png",
+            "FromArea": {
+                "X": 240,
+                "Y": 0,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 240,
+                "Y": 0,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Lilac",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.MoreFlowers/Objects",
+            "FromFile": "CornucopiaMoreFlowers/assets/objects.png",
+            "FromArea": {
+                "X": 16,
+                "Y": 64,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 16,
+                "Y": 64,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Lupine",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.MoreFlowers/Objects",
+            "FromFile": "CornucopiaMoreFlowers/assets/objects.png",
+            "FromArea": {
+                "X": 32,
+                "Y": 112,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 32,
+                "Y": 112,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Peony",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.MoreFlowers/Objects",
+            "FromFile": "CornucopiaMoreFlowers/assets/objects.png",
+            "FromArea": {
+                "X": 112,
+                "Y": 48,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 112,
+                "Y": 48,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Petunia",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.MoreFlowers/Objects",
+            "FromFile": "CornucopiaMoreFlowers/assets/objects.png",
+            "FromArea": {
+                "X": 80,
+                "Y": 48,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 80,
+                "Y": 48,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Pitcher Plant",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.MoreFlowers/Objects",
+            "FromFile": "CornucopiaMoreFlowers/assets/objects.png",
+            "FromArea": {
+                "X": 48,
+                "Y": 48,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 48,
+                "Y": 48,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Prismatic Rose",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.MoreFlowers/Objects",
+            "FromFile": "CornucopiaMoreFlowers/assets/objects.png",
+            "FromArea": {
+                "X": 304,
+                "Y": 48,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 304,
+                "Y": 48,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Purple Coneflower",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.MoreFlowers/Objects",
+            "FromFile": "CornucopiaMoreFlowers/assets/objects.png",
+            "FromArea": {
+                "X": 48,
+                "Y": 16,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 48,
+                "Y": 16,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Rafflessia",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.MoreFlowers/Objects",
+            "FromFile": "CornucopiaMoreFlowers/assets/objects.png",
+            "FromArea": {
+                "X": 16,
+                "Y": 48,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 16,
+                "Y": 48,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Spring Rose",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.MoreFlowers/Objects",
+            "FromFile": "CornucopiaMoreFlowers/assets/objects.png",
+            "FromArea": {
+                "X": 176,
+                "Y": 48,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 176,
+                "Y": 48,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Summer Rose",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.MoreFlowers/Objects",
+            "FromFile": "CornucopiaMoreFlowers/assets/objects.png",
+            "FromArea": {
+                "X": 208,
+                "Y": 48,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 208,
+                "Y": 48,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Violet",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.MoreFlowers/Objects",
+            "FromFile": "CornucopiaMoreFlowers/assets/objects.png",
+            "FromArea": {
+                "X": 176,
+                "Y": 0,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 176,
+                "Y": 0,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Winter Rose",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.MoreFlowers/Objects",
+            "FromFile": "CornucopiaMoreFlowers/assets/objects.png",
+            "FromArea": {
+                "X": 272,
+                "Y": 48,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 272,
+                "Y": 48,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Wolfsbane",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.MoreFlowers/Objects",
+            "FromFile": "CornucopiaMoreFlowers/assets/objects.png",
+            "FromArea": {
+                "X": 80,
+                "Y": 64,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 80,
+                "Y": 64,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Hibiscus Sapling",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.MoreFlowers/Objects",
+            "FromFile": "CornucopiaMoreFlowers/assets/objects.png",
+            "FromArea": {
+                "X": 48,
+                "Y": 208,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 48,
+                "Y": 208,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Jasmine Sapling",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.MoreFlowers/Objects",
+            "FromFile": "CornucopiaMoreFlowers/assets/objects.png",
+            "FromArea": {
+                "X": 80,
+                "Y": 208,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 80,
+                "Y": 208,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Magnolia Sapling",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.MoreFlowers/Objects",
+            "FromFile": "CornucopiaMoreFlowers/assets/objects.png",
+            "FromArea": {
+                "X": 16,
+                "Y": 208,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 16,
+                "Y": 208,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Wisteria Sapling",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.MoreFlowers/Objects",
+            "FromFile": "CornucopiaMoreFlowers/assets/objects.png",
+            "FromArea": {
+                "X": 144,
+                "Y": 208,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 144,
+                "Y": 208,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Ylang Ylang Sapling",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.MoreFlowers/Objects",
+            "FromFile": "CornucopiaMoreFlowers/assets/objects.png",
+            "FromArea": {
+                "X": 112,
+                "Y": 208,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 112,
+                "Y": 208,
+                "Width": 16,
+                "Height": 16
+            }
         }
     ]
 }

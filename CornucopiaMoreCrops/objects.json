@@ -1,22 +1,2113 @@
 {
     "Changes": [
-        // Canary Melon
         {
+            "$comment": "Grape Starter",
             "Action": "EditImage",
             "PatchMode": "Replace",
             "Target": "Cornucopia.MoreCrops/Objects",
             "FromFile": "CornucopiaMoreCrops/assets/objects.png",
-            "FromArea": { "X": 80, "Y": 0, "Width": 16, "Height": 16 }, 
-            "ToArea": { "X": 80, "Y": 0, "Width": 16, "Height": 16 }
+            "FromArea": {
+                "X": 48,
+                "Y": 0,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 48,
+                "Y": 0,
+                "Width": 16,
+                "Height": 16
+            }
         },
-        // Basil
         {
+            "$comment": "Basil",
             "Action": "EditImage",
             "PatchMode": "Replace",
             "Target": "Cornucopia.MoreCrops/Objects",
             "FromFile": "CornucopiaMoreCrops/assets/objects.png",
-            "FromArea": { "X": 240, "Y": 144, "Width": 16, "Height": 16 }, 
-            "ToArea": { "X": 240, "Y": 144, "Width": 16, "Height": 16 }
+            "FromArea": {
+                "X": 240,
+                "Y": 144,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 240,
+                "Y": 144,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Bell Pepper",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.MoreCrops/Objects",
+            "FromFile": "CornucopiaMoreCrops/assets/objects.png",
+            "FromArea": {
+                "X": 144,
+                "Y": 0,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 144,
+                "Y": 0,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Turnip",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.MoreCrops/Objects",
+            "FromFile": "CornucopiaMoreCrops/assets/objects.png",
+            "FromArea": {
+                "X": 16,
+                "Y": 112,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 16,
+                "Y": 112,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Cotton Boll",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.MoreCrops/Objects",
+            "FromFile": "CornucopiaMoreCrops/assets/objects.png",
+            "FromArea": {
+                "X": 240,
+                "Y": 0,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 240,
+                "Y": 0,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Cucumber",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.MoreCrops/Objects",
+            "FromFile": "CornucopiaMoreCrops/assets/objects.png",
+            "FromArea": {
+                "X": 208,
+                "Y": 0,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 208,
+                "Y": 0,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Kiwi",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.MoreCrops/Objects",
+            "FromFile": "CornucopiaMoreCrops/assets/objects.png",
+            "FromArea": {
+                "X": 48,
+                "Y": 144,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 48,
+                "Y": 144,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Lettuce",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.MoreCrops/Objects",
+            "FromFile": "CornucopiaMoreCrops/assets/objects.png",
+            "FromArea": {
+                "X": 48,
+                "Y": 96,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 48,
+                "Y": 96,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Olive",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.MoreCrops/Objects",
+            "FromFile": "CornucopiaMoreCrops/assets/objects.png",
+            "FromArea": {
+                "X": 112,
+                "Y": 208,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 112,
+                "Y": 208,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Onion",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.MoreCrops/Objects",
+            "FromFile": "CornucopiaMoreCrops/assets/objects.png",
+            "FromArea": {
+                "X": 272,
+                "Y": 0,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 272,
+                "Y": 0,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Peanut",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.MoreCrops/Objects",
+            "FromFile": "CornucopiaMoreCrops/assets/objects.png",
+            "FromArea": {
+                "X": 48,
+                "Y": 16,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 48,
+                "Y": 16,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Raspberry",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.MoreCrops/Objects",
+            "FromFile": "CornucopiaMoreCrops/assets/objects.png",
+            "FromArea": {
+                "X": 80,
+                "Y": 16,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 80,
+                "Y": 16,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Spinach",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.MoreCrops/Objects",
+            "FromFile": "CornucopiaMoreCrops/assets/objects.png",
+            "FromArea": {
+                "X": 48,
+                "Y": 64,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 48,
+                "Y": 64,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Sugarcane",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.MoreCrops/Objects",
+            "FromFile": "CornucopiaMoreCrops/assets/objects.png",
+            "FromArea": {
+                "X": 176,
+                "Y": 16,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 176,
+                "Y": 16,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Watermelon",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.MoreCrops/Objects",
+            "FromFile": "CornucopiaMoreCrops/assets/objects.png",
+            "FromArea": {
+                "X": 176,
+                "Y": 0,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 176,
+                "Y": 0,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Zucchini",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.MoreCrops/Objects",
+            "FromFile": "CornucopiaMoreCrops/assets/objects.png",
+            "FromArea": {
+                "X": 16,
+                "Y": 96,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 16,
+                "Y": 96,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Vanilla",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.MoreCrops/Objects",
+            "FromFile": "CornucopiaMoreCrops/assets/objects.png",
+            "FromArea": {
+                "X": 176,
+                "Y": 208,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 176,
+                "Y": 208,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Peppercorn",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.MoreCrops/Objects",
+            "FromFile": "CornucopiaMoreCrops/assets/objects.png",
+            "FromArea": {
+                "X": 176,
+                "Y": 144,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 176,
+                "Y": 144,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Adzuki Bean",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.MoreCrops/Objects",
+            "FromFile": "CornucopiaMoreCrops/assets/objects.png",
+            "FromArea": {
+                "X": 144,
+                "Y": 64,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 144,
+                "Y": 64,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Agave",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.MoreCrops/Objects",
+            "FromFile": "CornucopiaMoreCrops/assets/objects.png",
+            "FromArea": {
+                "X": 272,
+                "Y": 48,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 272,
+                "Y": 48,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Asparagus",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.MoreCrops/Objects",
+            "FromFile": "CornucopiaMoreCrops/assets/objects.png",
+            "FromArea": {
+                "X": 240,
+                "Y": 112,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 240,
+                "Y": 112,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Bamboo",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.MoreCrops/Objects",
+            "FromFile": "CornucopiaMoreCrops/assets/objects.png",
+            "FromArea": {
+                "X": 272,
+                "Y": 64,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 272,
+                "Y": 64,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Barley",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.MoreCrops/Objects",
+            "FromFile": "CornucopiaMoreCrops/assets/objects.png",
+            "FromArea": {
+                "X": 304,
+                "Y": 64,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 304,
+                "Y": 64,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Black Bean",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.MoreCrops/Objects",
+            "FromFile": "CornucopiaMoreCrops/assets/objects.png",
+            "FromArea": {
+                "X": 176,
+                "Y": 112,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 176,
+                "Y": 112,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Black Currants",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.MoreCrops/Objects",
+            "FromFile": "CornucopiaMoreCrops/assets/objects.png",
+            "FromArea": {
+                "X": 176,
+                "Y": 48,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 176,
+                "Y": 48,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Blue Agave",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.MoreCrops/Objects",
+            "FromFile": "CornucopiaMoreCrops/assets/objects.png",
+            "FromArea": {
+                "X": 304,
+                "Y": 48,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 304,
+                "Y": 48,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Buckwheat",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.MoreCrops/Objects",
+            "FromFile": "CornucopiaMoreCrops/assets/objects.png",
+            "FromArea": {
+                "X": 80,
+                "Y": 96,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 80,
+                "Y": 96,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Butternut Squash",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.MoreCrops/Objects",
+            "FromFile": "CornucopiaMoreCrops/assets/objects.png",
+            "FromArea": {
+                "X": 112,
+                "Y": 96,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 112,
+                "Y": 96,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Cabbage",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.MoreCrops/Objects",
+            "FromFile": "CornucopiaMoreCrops/assets/objects.png",
+            "FromArea": {
+                "X": 112,
+                "Y": 0,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 112,
+                "Y": 0,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Canary Melon",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.MoreCrops/Objects",
+            "FromFile": "CornucopiaMoreCrops/assets/objects.png",
+            "FromArea": {
+                "X": 80,
+                "Y": 0,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 80,
+                "Y": 0,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Canola Flower",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.MoreCrops/Objects",
+            "FromFile": "CornucopiaMoreCrops/assets/objects.png",
+            "FromArea": {
+                "X": 272,
+                "Y": 112,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 272,
+                "Y": 112,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Cantaloupe",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.MoreCrops/Objects",
+            "FromFile": "CornucopiaMoreCrops/assets/objects.png",
+            "FromArea": {
+                "X": 144,
+                "Y": 96,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 144,
+                "Y": 96,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Cassava",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.MoreCrops/Objects",
+            "FromFile": "CornucopiaMoreCrops/assets/objects.png",
+            "FromArea": {
+                "X": 304,
+                "Y": 0,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 304,
+                "Y": 0,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Celery",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.MoreCrops/Objects",
+            "FromFile": "CornucopiaMoreCrops/assets/objects.png",
+            "FromArea": {
+                "X": 144,
+                "Y": 16,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 144,
+                "Y": 16,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Chicken of the Woods",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.MoreCrops/Objects",
+            "FromFile": "CornucopiaMoreCrops/assets/objects.png",
+            "FromArea": {
+                "X": 304,
+                "Y": 16,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 304,
+                "Y": 16,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Chickpea",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.MoreCrops/Objects",
+            "FromFile": "CornucopiaMoreCrops/assets/objects.png",
+            "FromArea": {
+                "X": 48,
+                "Y": 48,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 48,
+                "Y": 48,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Daikon",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.MoreCrops/Objects",
+            "FromFile": "CornucopiaMoreCrops/assets/objects.png",
+            "FromArea": {
+                "X": 48,
+                "Y": 112,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 48,
+                "Y": 112,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Durum",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.MoreCrops/Objects",
+            "FromFile": "CornucopiaMoreCrops/assets/objects.png",
+            "FromArea": {
+                "X": 80,
+                "Y": 144,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 80,
+                "Y": 144,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Elderberries",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.MoreCrops/Objects",
+            "FromFile": "CornucopiaMoreCrops/assets/objects.png",
+            "FromArea": {
+                "X": 16,
+                "Y": 64,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 16,
+                "Y": 64,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Ginseng",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.MoreCrops/Objects",
+            "FromFile": "CornucopiaMoreCrops/assets/objects.png",
+            "FromArea": {
+                "X": 240,
+                "Y": 96,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 240,
+                "Y": 96,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Gooseberry",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.MoreCrops/Objects",
+            "FromFile": "CornucopiaMoreCrops/assets/objects.png",
+            "FromArea": {
+                "X": 144,
+                "Y": 48,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 144,
+                "Y": 48,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Green Peas",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.MoreCrops/Objects",
+            "FromFile": "CornucopiaMoreCrops/assets/objects.png",
+            "FromArea": {
+                "X": 176,
+                "Y": 64,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 176,
+                "Y": 64,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Groundcherries",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.MoreCrops/Objects",
+            "FromFile": "CornucopiaMoreCrops/assets/objects.png",
+            "FromArea": {
+                "X": 80,
+                "Y": 208,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 80,
+                "Y": 208,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Habanero",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.MoreCrops/Objects",
+            "FromFile": "CornucopiaMoreCrops/assets/objects.png",
+            "FromArea": {
+                "X": 144,
+                "Y": 144,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 144,
+                "Y": 144,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Honeydew",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.MoreCrops/Objects",
+            "FromFile": "CornucopiaMoreCrops/assets/objects.png",
+            "FromArea": {
+                "X": 176,
+                "Y": 96,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 176,
+                "Y": 96,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Jalapeno",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.MoreCrops/Objects",
+            "FromFile": "CornucopiaMoreCrops/assets/objects.png",
+            "FromArea": {
+                "X": 208,
+                "Y": 64,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 208,
+                "Y": 64,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Juniper Berries",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.MoreCrops/Objects",
+            "FromFile": "CornucopiaMoreCrops/assets/objects.png",
+            "FromArea": {
+                "X": 112,
+                "Y": 16,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 112,
+                "Y": 16,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Kidney Beans",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.MoreCrops/Objects",
+            "FromFile": "CornucopiaMoreCrops/assets/objects.png",
+            "FromArea": {
+                "X": 208,
+                "Y": 112,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 208,
+                "Y": 112,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Navy Beans",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.MoreCrops/Objects",
+            "FromFile": "CornucopiaMoreCrops/assets/objects.png",
+            "FromArea": {
+                "X": 144,
+                "Y": 112,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 144,
+                "Y": 112,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Oats",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.MoreCrops/Objects",
+            "FromFile": "CornucopiaMoreCrops/assets/objects.png",
+            "FromArea": {
+                "X": 16,
+                "Y": 48,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 16,
+                "Y": 48,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Okra",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.MoreCrops/Objects",
+            "FromFile": "CornucopiaMoreCrops/assets/objects.png",
+            "FromArea": {
+                "X": 208,
+                "Y": 96,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 208,
+                "Y": 96,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Passionfruit",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.MoreCrops/Objects",
+            "FromFile": "CornucopiaMoreCrops/assets/objects.png",
+            "FromArea": {
+                "X": 112,
+                "Y": 64,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 112,
+                "Y": 64,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Pinto Beans",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.MoreCrops/Objects",
+            "FromFile": "CornucopiaMoreCrops/assets/objects.png",
+            "FromArea": {
+                "X": 112,
+                "Y": 112,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 112,
+                "Y": 112,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Quinoa",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.MoreCrops/Objects",
+            "FromFile": "CornucopiaMoreCrops/assets/objects.png",
+            "FromArea": {
+                "X": 304,
+                "Y": 112,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 304,
+                "Y": 112,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Red Onion",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.MoreCrops/Objects",
+            "FromFile": "CornucopiaMoreCrops/assets/objects.png",
+            "FromArea": {
+                "X": 16,
+                "Y": 144,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 16,
+                "Y": 144,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Shallot",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.MoreCrops/Objects",
+            "FromFile": "CornucopiaMoreCrops/assets/objects.png",
+            "FromArea": {
+                "X": 208,
+                "Y": 48,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 208,
+                "Y": 48,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Shiitake",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.MoreCrops/Objects",
+            "FromFile": "CornucopiaMoreCrops/assets/objects.png",
+            "FromArea": {
+                "X": 272,
+                "Y": 16,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 272,
+                "Y": 16,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Sugar Beet",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.MoreCrops/Objects",
+            "FromFile": "CornucopiaMoreCrops/assets/objects.png",
+            "FromArea": {
+                "X": 80,
+                "Y": 64,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 80,
+                "Y": 64,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Sweet Potato",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.MoreCrops/Objects",
+            "FromFile": "CornucopiaMoreCrops/assets/objects.png",
+            "FromArea": {
+                "X": 208,
+                "Y": 16,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 208,
+                "Y": 16,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Wasabi Root",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.MoreCrops/Objects",
+            "FromFile": "CornucopiaMoreCrops/assets/objects.png",
+            "FromArea": {
+                "X": 272,
+                "Y": 96,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 272,
+                "Y": 96,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "White Grape (Planter)",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.MoreCrops/Objects",
+            "FromFile": "CornucopiaMoreCrops/assets/objects.png",
+            "FromArea": {
+                "X": 240,
+                "Y": 48,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 240,
+                "Y": 48,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "White Grape (Bush)",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.MoreCrops/Objects",
+            "FromFile": "CornucopiaMoreCrops/assets/objects.png",
+            "FromArea": {
+                "X": 240,
+                "Y": 64,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 240,
+                "Y": 64,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Aloe",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.MoreCrops/Objects",
+            "FromFile": "CornucopiaMoreCrops/assets/objects.png",
+            "FromArea": {
+                "X": 240,
+                "Y": 160,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 240,
+                "Y": 160,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Bay Leaves",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.MoreCrops/Objects",
+            "FromFile": "CornucopiaMoreCrops/assets/objects.png",
+            "FromArea": {
+                "X": 208,
+                "Y": 160,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 208,
+                "Y": 160,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Catnip",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.MoreCrops/Objects",
+            "FromFile": "CornucopiaMoreCrops/assets/objects.png",
+            "FromArea": {
+                "X": 112,
+                "Y": 160,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 112,
+                "Y": 160,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Chives",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.MoreCrops/Objects",
+            "FromFile": "CornucopiaMoreCrops/assets/objects.png",
+            "FromArea": {
+                "X": 208,
+                "Y": 144,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 208,
+                "Y": 144,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Cilantro",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.MoreCrops/Objects",
+            "FromFile": "CornucopiaMoreCrops/assets/objects.png",
+            "FromArea": {
+                "X": 272,
+                "Y": 160,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 272,
+                "Y": 160,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Dill",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.MoreCrops/Objects",
+            "FromFile": "CornucopiaMoreCrops/assets/objects.png",
+            "FromArea": {
+                "X": 16,
+                "Y": 192,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 16,
+                "Y": 192,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Fennel",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.MoreCrops/Objects",
+            "FromFile": "CornucopiaMoreCrops/assets/objects.png",
+            "FromArea": {
+                "X": 144,
+                "Y": 160,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 144,
+                "Y": 160,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Fenugreek",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.MoreCrops/Objects",
+            "FromFile": "CornucopiaMoreCrops/assets/objects.png",
+            "FromArea": {
+                "X": 48,
+                "Y": 192,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 48,
+                "Y": 192,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Lemongrass",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.MoreCrops/Objects",
+            "FromFile": "CornucopiaMoreCrops/assets/objects.png",
+            "FromArea": {
+                "X": 240,
+                "Y": 192,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 240,
+                "Y": 192,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Licorice Root",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.MoreCrops/Objects",
+            "FromFile": "CornucopiaMoreCrops/assets/objects.png",
+            "FromArea": {
+                "X": 208,
+                "Y": 192,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 208,
+                "Y": 192,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Marjoram",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.MoreCrops/Objects",
+            "FromFile": "CornucopiaMoreCrops/assets/objects.png",
+            "FromArea": {
+                "X": 272,
+                "Y": 192,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 272,
+                "Y": 192,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Mint",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.MoreCrops/Objects",
+            "FromFile": "CornucopiaMoreCrops/assets/objects.png",
+            "FromArea": {
+                "X": 304,
+                "Y": 144,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 304,
+                "Y": 144,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Oregano",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.MoreCrops/Objects",
+            "FromFile": "CornucopiaMoreCrops/assets/objects.png",
+            "FromArea": {
+                "X": 176,
+                "Y": 192,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 176,
+                "Y": 192,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Parsley",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.MoreCrops/Objects",
+            "FromFile": "CornucopiaMoreCrops/assets/objects.png",
+            "FromArea": {
+                "X": 16,
+                "Y": 160,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 16,
+                "Y": 160,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Perilla Leaves",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.MoreCrops/Objects",
+            "FromFile": "CornucopiaMoreCrops/assets/objects.png",
+            "FromArea": {
+                "X": 80,
+                "Y": 160,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 80,
+                "Y": 160,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Rosemary",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.MoreCrops/Objects",
+            "FromFile": "CornucopiaMoreCrops/assets/objects.png",
+            "FromArea": {
+                "X": 48,
+                "Y": 160,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 48,
+                "Y": 160,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Sage",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.MoreCrops/Objects",
+            "FromFile": "CornucopiaMoreCrops/assets/objects.png",
+            "FromArea": {
+                "X": 272,
+                "Y": 144,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 272,
+                "Y": 144,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Tarragon",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.MoreCrops/Objects",
+            "FromFile": "CornucopiaMoreCrops/assets/objects.png",
+            "FromArea": {
+                "X": 80,
+                "Y": 192,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 80,
+                "Y": 192,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Thyme",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.MoreCrops/Objects",
+            "FromFile": "CornucopiaMoreCrops/assets/objects.png",
+            "FromArea": {
+                "X": 176,
+                "Y": 160,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 176,
+                "Y": 160,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Tumeric",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.MoreCrops/Objects",
+            "FromFile": "CornucopiaMoreCrops/assets/objects.png",
+            "FromArea": {
+                "X": 112,
+                "Y": 192,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 112,
+                "Y": 192,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Wormwood",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.MoreCrops/Objects",
+            "FromFile": "CornucopiaMoreCrops/assets/objects.png",
+            "FromArea": {
+                "X": 144,
+                "Y": 192,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 144,
+                "Y": 192,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Avocado Sapling",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.MoreCrops/Objects",
+            "FromFile": "CornucopiaMoreCrops/assets/objects.png",
+            "FromArea": {
+                "X": 240,
+                "Y": 288,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 240,
+                "Y": 288,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Cocoa Pod Sapling",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.MoreCrops/Objects",
+            "FromFile": "CornucopiaMoreCrops/assets/objects.png",
+            "FromArea": {
+                "X": 48,
+                "Y": 304,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 48,
+                "Y": 304,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Pear Sapling",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.MoreCrops/Objects",
+            "FromFile": "CornucopiaMoreCrops/assets/objects.png",
+            "FromArea": {
+                "X": 176,
+                "Y": 288,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 176,
+                "Y": 288,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Pistachio Sapling",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.MoreCrops/Objects",
+            "FromFile": "CornucopiaMoreCrops/assets/objects.png",
+            "FromArea": {
+                "X": 272,
+                "Y": 304,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 272,
+                "Y": 304,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Almond Sapling",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.MoreCrops/Objects",
+            "FromFile": "CornucopiaMoreCrops/assets/objects.png",
+            "FromArea": {
+                "X": 80,
+                "Y": 304,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 80,
+                "Y": 304,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Breadfruit Sapling",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.MoreCrops/Objects",
+            "FromFile": "CornucopiaMoreCrops/assets/objects.png",
+            "FromArea": {
+                "X": 144,
+                "Y": 336,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 144,
+                "Y": 336,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Cashew Sapling",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.MoreCrops/Objects",
+            "FromFile": "CornucopiaMoreCrops/assets/objects.png",
+            "FromArea": {
+                "X": 112,
+                "Y": 304,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 112,
+                "Y": 304,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Dragonfruit Sapling",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.MoreCrops/Objects",
+            "FromFile": "CornucopiaMoreCrops/assets/objects.png",
+            "FromArea": {
+                "X": 208,
+                "Y": 288,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 208,
+                "Y": 288,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Durian Sapling",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.MoreCrops/Objects",
+            "FromFile": "CornucopiaMoreCrops/assets/objects.png",
+            "FromArea": {
+                "X": 112,
+                "Y": 336,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 112,
+                "Y": 336,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Fig Sapling",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.MoreCrops/Objects",
+            "FromFile": "CornucopiaMoreCrops/assets/objects.png",
+            "FromArea": {
+                "X": 144,
+                "Y": 288,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 144,
+                "Y": 288,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Grapefruit Sapling",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.MoreCrops/Objects",
+            "FromFile": "CornucopiaMoreCrops/assets/objects.png",
+            "FromArea": {
+                "X": 80,
+                "Y": 336,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 80,
+                "Y": 336,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Lemon Sapling",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.MoreCrops/Objects",
+            "FromFile": "CornucopiaMoreCrops/assets/objects.png",
+            "FromArea": {
+                "X": 112,
+                "Y": 288,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 112,
+                "Y": 288,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Lime Sapling",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.MoreCrops/Objects",
+            "FromFile": "CornucopiaMoreCrops/assets/objects.png",
+            "FromArea": {
+                "X": 304,
+                "Y": 288,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 304,
+                "Y": 288,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Lychee Sapling",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.MoreCrops/Objects",
+            "FromFile": "CornucopiaMoreCrops/assets/objects.png",
+            "FromArea": {
+                "X": 176,
+                "Y": 336,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 176,
+                "Y": 336,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Nectarine Sapling",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.MoreCrops/Objects",
+            "FromFile": "CornucopiaMoreCrops/assets/objects.png",
+            "FromArea": {
+                "X": 16,
+                "Y": 304,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 16,
+                "Y": 304,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Papaya Sapling",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.MoreCrops/Objects",
+            "FromFile": "CornucopiaMoreCrops/assets/objects.png",
+            "FromArea": {
+                "X": 48,
+                "Y": 288,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 48,
+                "Y": 288,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Pecan Sapling",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.MoreCrops/Objects",
+            "FromFile": "CornucopiaMoreCrops/assets/objects.png",
+            "FromArea": {
+                "X": 16,
+                "Y": 336,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 16,
+                "Y": 336,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Persimmon Sapling",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.MoreCrops/Objects",
+            "FromFile": "CornucopiaMoreCrops/assets/objects.png",
+            "FromArea": {
+                "X": 272,
+                "Y": 288,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 272,
+                "Y": 288,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Plaintain Sapling",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.MoreCrops/Objects",
+            "FromFile": "CornucopiaMoreCrops/assets/objects.png",
+            "FromArea": {
+                "X": 240,
+                "Y": 304,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 240,
+                "Y": 304,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Pomelo Sapling",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.MoreCrops/Objects",
+            "FromFile": "CornucopiaMoreCrops/assets/objects.png",
+            "FromArea": {
+                "X": 48,
+                "Y": 336,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 48,
+                "Y": 336,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Ume Sapling",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.MoreCrops/Objects",
+            "FromFile": "CornucopiaMoreCrops/assets/objects.png",
+            "FromArea": {
+                "X": 208,
+                "Y": 304,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 208,
+                "Y": 304,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Walnut Sapling",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.MoreCrops/Objects",
+            "FromFile": "CornucopiaMoreCrops/assets/objects.png",
+            "FromArea": {
+                "X": 144,
+                "Y": 304,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 144,
+                "Y": 304,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Yuzu Sapling",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.MoreCrops/Objects",
+            "FromFile": "CornucopiaMoreCrops/assets/objects.png",
+            "FromArea": {
+                "X": 176,
+                "Y": 304,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 176,
+                "Y": 304,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Camphor Leaves Sapling",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.MoreCrops/Objects",
+            "FromFile": "CornucopiaMoreCrops/assets/objects.png",
+            "FromArea": {
+                "X": 240,
+                "Y": 336,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 240,
+                "Y": 336,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Cinnamon Sticks Sapling",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.MoreCrops/Objects",
+            "FromFile": "CornucopiaMoreCrops/assets/objects.png",
+            "FromArea": {
+                "X": 304,
+                "Y": 304,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 304,
+                "Y": 304,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Eucalyptus Leaves Sapling",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.MoreCrops/Objects",
+            "FromFile": "CornucopiaMoreCrops/assets/objects.png",
+            "FromArea": {
+                "X": 304,
+                "Y": 336,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 304,
+                "Y": 336,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Melaleuca Leaves Sapling",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.MoreCrops/Objects",
+            "FromFile": "CornucopiaMoreCrops/assets/objects.png",
+            "FromArea": {
+                "X": 16,
+                "Y": 352,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 16,
+                "Y": 352,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Nutmeg Sapling",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.MoreCrops/Objects",
+            "FromFile": "CornucopiaMoreCrops/assets/objects.png",
+            "FromArea": {
+                "X": 272,
+                "Y": 336,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 272,
+                "Y": 336,
+                "Width": 16,
+                "Height": 16
+            }
         }
     ]
 }

@@ -18,14 +18,14 @@
             "When": {
                 "HasMod |contains=Cornucopia.MoreCrops": true
             },
-            "FromFile": "CornucopiaMoreCrops/objects.json"
+            "FromFile": "CornucopiaMoreCrops/data/objects.json"
         },
         {
             "Action": "Include",
             "When": {
                 "HasMod |contains=Cornucopia.MoreFlowers": true
             },
-            "FromFile": "CornucopiaMoreFlowers/objects.json"
+            "FromFile": "CornucopiaMoreFlowers/data/objects.json"
         }
     ]
 }

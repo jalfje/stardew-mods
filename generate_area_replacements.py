@@ -230,5 +230,5 @@ more_flowers_data = {
     ]
 }
 
-create_json(more_crops_data, "./CornucopiaMoreCrops/objects.json")
-create_json(more_flowers_data, "./CornucopiaMoreFlowers/objects.json")
+create_json(more_crops_data, 'CornucopiaMoreCrops/data/objects.json')
+create_json(more_flowers_data, 'CornucopiaMoreFlowers/data/objects.json')

@@ -1,0 +1,13 @@
+{
+    "Changes": [
+        // Canary Melon
+        {
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.MoreCrops/Objects",
+            "FromFile": "assets/objects.png",
+            "FromArea": { "X": 80, "Y": 0, "Width": 16, "Height": 16 }, 
+            "ToArea": { "X": 80, "Y": 0, "Width": 16, "Height": 16 }
+        }
+    ]
+}

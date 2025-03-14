@@ -1,0 +1,31 @@
+{
+    "Format": "2.0.0",
+    "ConfigSchema": {
+        "All Seeds Have Packets": {
+            "AllowValues": "true, false",
+            "Default": "true",
+            "Description": "Change packet-less seeds to have seasonal seed packets"
+        },
+        "Seasonal Saplings": {
+            "AllowValues": "true, false",
+            "Default": "true",
+            "Description": "Change saplings to have bags colored based on harvest season"
+        }
+    },
+    "Changes": [
+        {
+            "Action": "Include",
+            "When": {
+                "HasMod |contains=Cornucopia.MoreCrops": true
+            },
+            "FromFile": "CornucopiaMoreCrops/objects.json"
+        },
+        {
+            "Action": "Include",
+            "When": {
+                "HasMod |contains=Cornucopia.MoreFlowers": true
+            },
+            "FromFile": "CornucopiaMoreFlowers/objects.json"
+        }
+    ]
+}

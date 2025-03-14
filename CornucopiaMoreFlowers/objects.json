@@ -1,0 +1,13 @@
+{
+    "Changes": [
+        // Blue Mist
+        {
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.MoreFlowers/Objects",
+            "FromFile": "assets/objects.png",
+            "FromArea": { "X": 48, "Y": 0, "Width": 16, "Height": 16 }, 
+            "ToArea": { "X": 48, "Y": 0, "Width": 16, "Height": 16 }
+        }
+    ]
+}

@@ -5,9 +5,18 @@
             "Action": "EditImage",
             "PatchMode": "Replace",
             "Target": "Cornucopia.MoreCrops/Objects",
-            "FromFile": "assets/objects.png",
+            "FromFile": "CornucopiaMoreCrops/assets/objects.png",
             "FromArea": { "X": 80, "Y": 0, "Width": 16, "Height": 16 }, 
             "ToArea": { "X": 80, "Y": 0, "Width": 16, "Height": 16 }
+        },
+        // Basil
+        {
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.MoreCrops/Objects",
+            "FromFile": "CornucopiaMoreCrops/assets/objects.png",
+            "FromArea": { "X": 240, "Y": 144, "Width": 16, "Height": 16 }, 
+            "ToArea": { "X": 240, "Y": 144, "Width": 16, "Height": 16 }
         }
     ]
 }

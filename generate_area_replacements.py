@@ -1,4 +1,5 @@
 import json
+from enum import Enum
 from collections import OrderedDict
 
 # Run this script to generate a json with the replacement patches for each
@@ -8,20 +9,37 @@ from collections import OrderedDict
 # Assumes that all sprites are the same size and that the replacement sprite sheet
 # is the same size and has sprites in the same locations as the original sprite sheet.
 
+class Special(Enum):
+    NONE = 0
+    UNPACKETED = 1
+    SAPLING = 2
+
 def generate_entry(
     target: str,
     from_file: str,
     sprite_size_px: int,
     sprites_per_row: int,
     sprite_index: int,
-    entry_name: str) -> OrderedDict:
+    entry_name: str,
+    special: Special) -> OrderedDict:
     location = OrderedDict([
         ('X', (sprite_index % sprites_per_row) * sprite_size_px),
         ('Y', (sprite_index // sprites_per_row) * sprite_size_px),
         ('Width', sprite_size_px),
         ('Height', sprite_size_px)
     ])
-    return OrderedDict([
+
+    when = None
+    if special == Special.UNPACKETED:
+        when = ('When', OrderedDict([
+            ('All Seeds Have Packets', True)
+        ]))
+    if special == Special.SAPLING:
+        when = ('When', OrderedDict([
+            ('Seasonal Saplings', True)
+        ]))
+
+    results = [
         ('$comment', entry_name),
         ('Action', 'EditImage'),
         ('PatchMode', 'Replace'),
@@ -29,7 +47,12 @@ def generate_entry(
         ('FromFile', from_file),
         ('FromArea', location),
         ('ToArea', location)
-    ])
+    ]
+    if when:
+        results.insert(1, when)
+
+    return OrderedDict(results)
+
 
 def generate_all_entries(data: dict):
     return [
@@ -39,9 +62,10 @@ def generate_all_entries(data: dict):
             sprite_size_px=data['sprite_size_px'],
             sprites_per_row=data['sprites_per_row'],
             sprite_index=sprite_index,
-            entry_name=entry_name
+            entry_name=entry_name,
+            special=rest[0] if len(rest) > 0 else Special.NONE
         )
-        for entry_name, sprite_index in data['entries']
+        for entry_name, sprite_index, *rest in data['entries']
     ]
 
 def create_json(data: dict, out_file: str):
@@ -71,7 +95,7 @@ more_crops_data = {
         ('Peanut', 23),
         ('Raspberry', 25),
         ('Spinach', 83),
-        ('Sugarcane', 31),
+        ('Sugarcane', 31, Special.UNPACKETED),
         ('Watermelon', 11),
         ('Zucchini', 121),
         ('Vanilla', 271),
@@ -79,7 +103,7 @@ more_crops_data = {
         ('Adzuki Bean', 89),
         ('Agave', 77),
         ('Asparagus', 155),
-        ('Bamboo', 97),
+        ('Bamboo', 97, Special.UNPACKETED),
         ('Barley', 99),
         ('Black Bean', 151),
         ('Black Currants', 71),
@@ -88,7 +112,7 @@ more_crops_data = {
         ('Butternut Squash', 127),
         ('Cabbage', 7),
         ('Canary Melon', 5),
-        ('Canola Flower', 157),
+        ('Canola Flower', 157, Special.UNPACKETED),
         ('Cantaloupe', 129),
         ('Cassava', 19),
         ('Celery', 29),
@@ -117,7 +141,7 @@ more_crops_data = {
         ('Shiitake', 37),
         ('Sugar Beet', 85),
         ('Sweet Potato', 33),
-        ('Wasabi Root', 137),
+        ('Wasabi Root', 137, Special.UNPACKETED),
         ('White Grape (Planter)', 75),
         ('White Grape (Bush)', 95),
         ('Aloe', 215),
@@ -141,34 +165,34 @@ more_crops_data = {
         ('Thyme', 211),
         ('Tumeric', 247),
         ('Wormwood', 249),
-        ('Avocado Sapling', 375),
-        ('Cocoa Pod Sapling', 383),
-        ('Pear Sapling', 371),
-        ('Pistachio Sapling', 397),
-        ('Almond Sapling', 385),
-        ('Breadfruit Sapling', 429),
-        ('Cashew Sapling', 387),
-        ('Dragonfruit Sapling', 373),
-        ('Durian Sapling', 427),
-        ('Fig Sapling', 369),
-        ('Grapefruit Sapling', 425),
-        ('Lemon Sapling', 367),
-        ('Lime Sapling', 379), 
-        ('Lychee Sapling', 431),
-        ('Nectarine Sapling', 381),
-        ('Papaya Sapling', 363),
-        ('Pecan Sapling', 421),
-        ('Persimmon Sapling', 377),
-        ('Plaintain Sapling', 395),
-        ('Pomelo Sapling', 423),
-        ('Ume Sapling', 393),
-        ('Walnut Sapling', 389),
-        ('Yuzu Sapling', 391),
-        ('Camphor Leaves Sapling', 435),
-        ('Cinnamon Sticks Sapling', 399),
-        ('Eucalyptus Leaves Sapling', 439),
-        ('Melaleuca Leaves Sapling', 441),
-        ('Nutmeg Sapling', 437)
+        ('Avocado Sapling', 375, Special.SAPLING),
+        ('Cocoa Pod Sapling', 383, Special.SAPLING),
+        ('Pear Sapling', 371, Special.SAPLING),
+        ('Pistachio Sapling', 397, Special.SAPLING),
+        ('Almond Sapling', 385, Special.SAPLING),
+        ('Breadfruit Sapling', 429, Special.SAPLING),
+        ('Cashew Sapling', 387, Special.SAPLING),
+        ('Dragonfruit Sapling', 373, Special.SAPLING),
+        ('Durian Sapling', 427, Special.SAPLING),
+        ('Fig Sapling', 369, Special.SAPLING),
+        ('Grapefruit Sapling', 425, Special.SAPLING),
+        ('Lemon Sapling', 367, Special.SAPLING),
+        ('Lime Sapling', 379, Special.SAPLING), 
+        ('Lychee Sapling', 431, Special.SAPLING),
+        ('Nectarine Sapling', 381, Special.SAPLING),
+        ('Papaya Sapling', 363, Special.SAPLING),
+        ('Pecan Sapling', 421, Special.SAPLING),
+        ('Persimmon Sapling', 377, Special.SAPLING),
+        ('Plaintain Sapling', 395, Special.SAPLING),
+        ('Pomelo Sapling', 423, Special.SAPLING),
+        ('Ume Sapling', 393, Special.SAPLING),
+        ('Walnut Sapling', 389, Special.SAPLING),
+        ('Yuzu Sapling', 391, Special.SAPLING),
+        ('Camphor Leaves Sapling', 435, Special.SAPLING),
+        ('Cinnamon Sticks Sapling', 399, Special.SAPLING),
+        ('Eucalyptus Leaves Sapling', 439, Special.SAPLING),
+        ('Melaleuca Leaves Sapling', 441, Special.SAPLING),
+        ('Nutmeg Sapling', 437, Special.SAPLING)
     ]
 }
 
@@ -183,7 +207,7 @@ more_flowers_data = {
         ('Chrysanthemum', 148),
         ('Iris', 37),
         ('Lily', 125),
-        ('Lotus', 35),
+        ('Lotus', 35, Special.UNPACKETED),
         ('Morning Glory', 33),
         ('Orchid', 131),
         ('Pansy', 154),
@@ -192,7 +216,7 @@ more_flowers_data = {
         ('Bee Balm', 9),
         ('Blue Bonnet', 39),
         ('Buttercup', 27),
-        ('Calico Rose', 87),
+        ('Calico Rose', 87, Special.UNPACKETED),
         ('Camellia', 31),
         ('Carnation', 134),
         ('Chamomile', 5),
@@ -213,8 +237,8 @@ more_flowers_data = {
         ('Lupine', 142),
         ('Peony', 67),
         ('Petunia', 65),
-        ('Pitcher Plant', 63),
-        ('Prismatic Rose', 79),
+        ('Pitcher Plant', 63, Special.UNPACKETED),
+        # ('Prismatic Rose', 79), # This has a special packet that we don't overwrite
         ('Purple Coneflower', 23),
         ('Rafflessia', 61),
         ('Spring Rose', 71),
@@ -222,11 +246,11 @@ more_flowers_data = {
         ('Violet', 11),
         ('Winter Rose', 77),
         ('Wolfsbane', 85),
-        ('Hibiscus Sapling', 263),
-        ('Jasmine Sapling', 265),
-        ('Magnolia Sapling', 261),
-        ('Wisteria Sapling', 269),
-        ('Ylang Ylang Sapling', 267)
+        ('Hibiscus Sapling', 263, Special.SAPLING),
+        ('Jasmine Sapling', 265, Special.SAPLING),
+        ('Magnolia Sapling', 261, Special.SAPLING),
+        ('Wisteria Sapling', 269, Special.SAPLING),
+        ('Ylang Ylang Sapling', 267, Special.SAPLING)
     ]
 }
 

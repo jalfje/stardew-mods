@@ -249,6 +249,9 @@
         },
         {
             "$comment": "Sugarcane",
+            "When": {
+                "All Seeds Have Packets": true
+            },
             "Action": "EditImage",
             "PatchMode": "Replace",
             "Target": "Cornucopia.MoreCrops/Objects",
@@ -401,6 +404,9 @@
         },
         {
             "$comment": "Bamboo",
+            "When": {
+                "All Seeds Have Packets": true
+            },
             "Action": "EditImage",
             "PatchMode": "Replace",
             "Target": "Cornucopia.MoreCrops/Objects",
@@ -572,6 +578,9 @@
         },
         {
             "$comment": "Canola Flower",
+            "When": {
+                "All Seeds Have Packets": true
+            },
             "Action": "EditImage",
             "PatchMode": "Replace",
             "Target": "Cornucopia.MoreCrops/Objects",
@@ -1123,6 +1132,9 @@
         },
         {
             "$comment": "Wasabi Root",
+            "When": {
+                "All Seeds Have Packets": true
+            },
             "Action": "EditImage",
             "PatchMode": "Replace",
             "Target": "Cornucopia.MoreCrops/Objects",
@@ -1579,6 +1591,9 @@
         },
         {
             "$comment": "Avocado Sapling",
+            "When": {
+                "Seasonal Saplings": true
+            },
             "Action": "EditImage",
             "PatchMode": "Replace",
             "Target": "Cornucopia.MoreCrops/Objects",
@@ -1598,6 +1613,9 @@
         },
         {
             "$comment": "Cocoa Pod Sapling",
+            "When": {
+                "Seasonal Saplings": true
+            },
             "Action": "EditImage",
             "PatchMode": "Replace",
             "Target": "Cornucopia.MoreCrops/Objects",
@@ -1617,6 +1635,9 @@
         },
         {
             "$comment": "Pear Sapling",
+            "When": {
+                "Seasonal Saplings": true
+            },
             "Action": "EditImage",
             "PatchMode": "Replace",
             "Target": "Cornucopia.MoreCrops/Objects",
@@ -1636,6 +1657,9 @@
         },
         {
             "$comment": "Pistachio Sapling",
+            "When": {
+                "Seasonal Saplings": true
+            },
             "Action": "EditImage",
             "PatchMode": "Replace",
             "Target": "Cornucopia.MoreCrops/Objects",
@@ -1655,6 +1679,9 @@
         },
         {
             "$comment": "Almond Sapling",
+            "When": {
+                "Seasonal Saplings": true
+            },
             "Action": "EditImage",
             "PatchMode": "Replace",
             "Target": "Cornucopia.MoreCrops/Objects",
@@ -1674,6 +1701,9 @@
         },
         {
             "$comment": "Breadfruit Sapling",
+            "When": {
+                "Seasonal Saplings": true
+            },
             "Action": "EditImage",
             "PatchMode": "Replace",
             "Target": "Cornucopia.MoreCrops/Objects",
@@ -1693,6 +1723,9 @@
         },
         {
             "$comment": "Cashew Sapling",
+            "When": {
+                "Seasonal Saplings": true
+            },
             "Action": "EditImage",
             "PatchMode": "Replace",
             "Target": "Cornucopia.MoreCrops/Objects",
@@ -1712,6 +1745,9 @@
         },
         {
             "$comment": "Dragonfruit Sapling",
+            "When": {
+                "Seasonal Saplings": true
+            },
             "Action": "EditImage",
             "PatchMode": "Replace",
             "Target": "Cornucopia.MoreCrops/Objects",
@@ -1731,6 +1767,9 @@
         },
         {
             "$comment": "Durian Sapling",
+            "When": {
+                "Seasonal Saplings": true
+            },
             "Action": "EditImage",
             "PatchMode": "Replace",
             "Target": "Cornucopia.MoreCrops/Objects",
@@ -1750,6 +1789,9 @@
         },
         {
             "$comment": "Fig Sapling",
+            "When": {
+                "Seasonal Saplings": true
+            },
             "Action": "EditImage",
             "PatchMode": "Replace",
             "Target": "Cornucopia.MoreCrops/Objects",
@@ -1769,6 +1811,9 @@
         },
         {
             "$comment": "Grapefruit Sapling",
+            "When": {
+                "Seasonal Saplings": true
+            },
             "Action": "EditImage",
             "PatchMode": "Replace",
             "Target": "Cornucopia.MoreCrops/Objects",
@@ -1788,6 +1833,9 @@
         },
         {
             "$comment": "Lemon Sapling",
+            "When": {
+                "Seasonal Saplings": true
+            },
             "Action": "EditImage",
             "PatchMode": "Replace",
             "Target": "Cornucopia.MoreCrops/Objects",
@@ -1807,6 +1855,9 @@
         },
         {
             "$comment": "Lime Sapling",
+            "When": {
+                "Seasonal Saplings": true
+            },
             "Action": "EditImage",
             "PatchMode": "Replace",
             "Target": "Cornucopia.MoreCrops/Objects",
@@ -1826,6 +1877,9 @@
         },
         {
             "$comment": "Lychee Sapling",
+            "When": {
+                "Seasonal Saplings": true
+            },
             "Action": "EditImage",
             "PatchMode": "Replace",
             "Target": "Cornucopia.MoreCrops/Objects",
@@ -1845,6 +1899,9 @@
         },
         {
             "$comment": "Nectarine Sapling",
+            "When": {
+                "Seasonal Saplings": true
+            },
             "Action": "EditImage",
             "PatchMode": "Replace",
             "Target": "Cornucopia.MoreCrops/Objects",
@@ -1864,6 +1921,9 @@
         },
         {
             "$comment": "Papaya Sapling",
+            "When": {
+                "Seasonal Saplings": true
+            },
             "Action": "EditImage",
             "PatchMode": "Replace",
             "Target": "Cornucopia.MoreCrops/Objects",
@@ -1883,6 +1943,9 @@
         },
         {
             "$comment": "Pecan Sapling",
+            "When": {
+                "Seasonal Saplings": true
+            },
             "Action": "EditImage",
             "PatchMode": "Replace",
             "Target": "Cornucopia.MoreCrops/Objects",
@@ -1902,6 +1965,9 @@
         },
         {
             "$comment": "Persimmon Sapling",
+            "When": {
+                "Seasonal Saplings": true
+            },
             "Action": "EditImage",
             "PatchMode": "Replace",
             "Target": "Cornucopia.MoreCrops/Objects",
@@ -1921,6 +1987,9 @@
         },
         {
             "$comment": "Plaintain Sapling",
+            "When": {
+                "Seasonal Saplings": true
+            },
             "Action": "EditImage",
             "PatchMode": "Replace",
             "Target": "Cornucopia.MoreCrops/Objects",
@@ -1940,6 +2009,9 @@
         },
         {
             "$comment": "Pomelo Sapling",
+            "When": {
+                "Seasonal Saplings": true
+            },
             "Action": "EditImage",
             "PatchMode": "Replace",
             "Target": "Cornucopia.MoreCrops/Objects",
@@ -1959,6 +2031,9 @@
         },
         {
             "$comment": "Ume Sapling",
+            "When": {
+                "Seasonal Saplings": true
+            },
             "Action": "EditImage",
             "PatchMode": "Replace",
             "Target": "Cornucopia.MoreCrops/Objects",
@@ -1978,6 +2053,9 @@
         },
         {
             "$comment": "Walnut Sapling",
+            "When": {
+                "Seasonal Saplings": true
+            },
             "Action": "EditImage",
             "PatchMode": "Replace",
             "Target": "Cornucopia.MoreCrops/Objects",
@@ -1997,6 +2075,9 @@
         },
         {
             "$comment": "Yuzu Sapling",
+            "When": {
+                "Seasonal Saplings": true
+            },
             "Action": "EditImage",
             "PatchMode": "Replace",
             "Target": "Cornucopia.MoreCrops/Objects",
@@ -2016,6 +2097,9 @@
         },
         {
             "$comment": "Camphor Leaves Sapling",
+            "When": {
+                "Seasonal Saplings": true
+            },
             "Action": "EditImage",
             "PatchMode": "Replace",
             "Target": "Cornucopia.MoreCrops/Objects",
@@ -2035,6 +2119,9 @@
         },
         {
             "$comment": "Cinnamon Sticks Sapling",
+            "When": {
+                "Seasonal Saplings": true
+            },
             "Action": "EditImage",
             "PatchMode": "Replace",
             "Target": "Cornucopia.MoreCrops/Objects",
@@ -2054,6 +2141,9 @@
         },
         {
             "$comment": "Eucalyptus Leaves Sapling",
+            "When": {
+                "Seasonal Saplings": true
+            },
             "Action": "EditImage",
             "PatchMode": "Replace",
             "Target": "Cornucopia.MoreCrops/Objects",
@@ -2073,6 +2163,9 @@
         },
         {
             "$comment": "Melaleuca Leaves Sapling",
+            "When": {
+                "Seasonal Saplings": true
+            },
             "Action": "EditImage",
             "PatchMode": "Replace",
             "Target": "Cornucopia.MoreCrops/Objects",
@@ -2092,6 +2185,9 @@
         },
         {
             "$comment": "Nutmeg Sapling",
+            "When": {
+                "Seasonal Saplings": true
+            },
             "Action": "EditImage",
             "PatchMode": "Replace",
             "Target": "Cornucopia.MoreCrops/Objects",

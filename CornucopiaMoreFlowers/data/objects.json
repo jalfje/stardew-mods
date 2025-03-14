@@ -78,6 +78,9 @@
         },
         {
             "$comment": "Lotus",
+            "When": {
+                "All Seeds Have Packets": true
+            },
             "Action": "EditImage",
             "PatchMode": "Replace",
             "Target": "Cornucopia.MoreFlowers/Objects",
@@ -249,6 +252,9 @@
         },
         {
             "$comment": "Calico Rose",
+            "When": {
+                "All Seeds Have Packets": true
+            },
             "Action": "EditImage",
             "PatchMode": "Replace",
             "Target": "Cornucopia.MoreFlowers/Objects",
@@ -648,6 +654,9 @@
         },
         {
             "$comment": "Pitcher Plant",
+            "When": {
+                "All Seeds Have Packets": true
+            },
             "Action": "EditImage",
             "PatchMode": "Replace",
             "Target": "Cornucopia.MoreFlowers/Objects",
@@ -660,25 +669,6 @@
             },
             "ToArea": {
                 "X": 48,
-                "Y": 48,
-                "Width": 16,
-                "Height": 16
-            }
-        },
-        {
-            "$comment": "Prismatic Rose",
-            "Action": "EditImage",
-            "PatchMode": "Replace",
-            "Target": "Cornucopia.MoreFlowers/Objects",
-            "FromFile": "CornucopiaMoreFlowers/assets/objects.png",
-            "FromArea": {
-                "X": 304,
-                "Y": 48,
-                "Width": 16,
-                "Height": 16
-            },
-            "ToArea": {
-                "X": 304,
                 "Y": 48,
                 "Width": 16,
                 "Height": 16
@@ -819,6 +809,9 @@
         },
         {
             "$comment": "Hibiscus Sapling",
+            "When": {
+                "Seasonal Saplings": true
+            },
             "Action": "EditImage",
             "PatchMode": "Replace",
             "Target": "Cornucopia.MoreFlowers/Objects",
@@ -838,6 +831,9 @@
         },
         {
             "$comment": "Jasmine Sapling",
+            "When": {
+                "Seasonal Saplings": true
+            },
             "Action": "EditImage",
             "PatchMode": "Replace",
             "Target": "Cornucopia.MoreFlowers/Objects",
@@ -857,6 +853,9 @@
         },
         {
             "$comment": "Magnolia Sapling",
+            "When": {
+                "Seasonal Saplings": true
+            },
             "Action": "EditImage",
             "PatchMode": "Replace",
             "Target": "Cornucopia.MoreFlowers/Objects",
@@ -876,6 +875,9 @@
         },
         {
             "$comment": "Wisteria Sapling",
+            "When": {
+                "Seasonal Saplings": true
+            },
             "Action": "EditImage",
             "PatchMode": "Replace",
             "Target": "Cornucopia.MoreFlowers/Objects",
@@ -895,6 +897,9 @@
         },
         {
             "$comment": "Ylang Ylang Sapling",
+            "When": {
+                "Seasonal Saplings": true
+            },
             "Action": "EditImage",
             "PatchMode": "Replace",
             "Target": "Cornucopia.MoreFlowers/Objects",

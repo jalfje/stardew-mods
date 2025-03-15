@@ -2,7 +2,7 @@ import zipfile
 from pathlib import Path
 
 source_folder = 'src/'
-out_file = 'Seasonal Seeds and Saplings.zip'
+out_file = 'Seasonal-Seeds-And-Saplings.zip'
 
 def zip_dir(dir: Path | str, filename: Path | str):
     """Zip the provided directory without navigating to that directory using `pathlib` module"""

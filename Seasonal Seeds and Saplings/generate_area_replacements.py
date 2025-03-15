@@ -70,7 +70,7 @@ def generate_all_entries(data: dict):
 
 def create_json(data: dict, out_file: str):
     entries_json = {'Changes': generate_all_entries(data)}
-    with open(out_file, mode='wt') as f:
+    with open(out_file, mode='wt', newline='\n') as f:
         json.dump(entries_json, f, indent=4)
 
 

@@ -1,10 +1,10 @@
 {
-    "Name": "Colored Modded Seeds",
+    "Name": "Seasonal Seeds And Saplings",
     "Author": "jalfje",
-    "Version": "0.0.1",
-    "Description": "Seasonally colored seeds for crop mods",
-    "UniqueID": "jalfje.SeasonalModdedSeeds",
-    "UpdateKeys": [],
+    "Version": "1.0.2",
+    "Description": "Seasonally colored seeds and saplings for vanilla and crop mods",
+    "UniqueID": "jalfje.SeasonalSeedsAndSaplings",
+    "UpdateKeys": [ "Nexus:32386" ],
     "ContentPackFor": {
         "UniqueID": "Pathoschild.ContentPatcher"
     },

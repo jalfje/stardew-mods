@@ -271,6 +271,6 @@ more_flowers_data = {
     ]
 }
 
-create_json(vanilla_data, 'Vanilla/data/springobjects.json')
-create_json(more_crops_data, 'CornucopiaMoreCrops/data/objects.json')
-create_json(more_flowers_data, 'CornucopiaMoreFlowers/data/objects.json')
+create_json(vanilla_data, 'src/Vanilla/data/springobjects.json')
+create_json(more_crops_data, 'src/CornucopiaMoreCrops/data/objects.json')
+create_json(more_flowers_data, 'src/CornucopiaMoreFlowers/data/objects.json')

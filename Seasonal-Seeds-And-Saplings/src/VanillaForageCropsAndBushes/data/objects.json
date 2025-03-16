@@ -1,0 +1,292 @@
+{
+    "Changes": [
+        {
+            "$comment": "Cave Carrot",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "ZoeyHoshi.ForageCrops/Objects",
+            "FromFile": "VanillaForageCropsAndBushes/assets/objects.png",
+            "FromArea": {
+                "X": 0,
+                "Y": 0,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 0,
+                "Y": 0,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Daffodil",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "ZoeyHoshi.ForageCrops/Objects",
+            "FromFile": "VanillaForageCropsAndBushes/assets/objects.png",
+            "FromArea": {
+                "X": 16,
+                "Y": 0,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 16,
+                "Y": 0,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Dandelion",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "ZoeyHoshi.ForageCrops/Objects",
+            "FromFile": "VanillaForageCropsAndBushes/assets/objects.png",
+            "FromArea": {
+                "X": 32,
+                "Y": 0,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 32,
+                "Y": 0,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Leek",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "ZoeyHoshi.ForageCrops/Objects",
+            "FromFile": "VanillaForageCropsAndBushes/assets/objects.png",
+            "FromArea": {
+                "X": 48,
+                "Y": 0,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 48,
+                "Y": 0,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Wild Horseradish",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "ZoeyHoshi.ForageCrops/Objects",
+            "FromFile": "VanillaForageCropsAndBushes/assets/objects.png",
+            "FromArea": {
+                "X": 64,
+                "Y": 0,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 64,
+                "Y": 0,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Fiddlehead Fern",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "ZoeyHoshi.ForageCrops/Objects",
+            "FromFile": "VanillaForageCropsAndBushes/assets/objects.png",
+            "FromArea": {
+                "X": 80,
+                "Y": 0,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 80,
+                "Y": 0,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Snow Yam",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "ZoeyHoshi.ForageCrops/Objects",
+            "FromFile": "VanillaForageCropsAndBushes/assets/objects.png",
+            "FromArea": {
+                "X": 0,
+                "Y": 16,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 0,
+                "Y": 16,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Winter Root",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "ZoeyHoshi.ForageCrops/Objects",
+            "FromFile": "VanillaForageCropsAndBushes/assets/objects.png",
+            "FromArea": {
+                "X": 16,
+                "Y": 16,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 16,
+                "Y": 16,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Seaweed",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "ZoeyHoshi.ForageCrops/Objects",
+            "FromFile": "VanillaForageCropsAndBushes/assets/objects.png",
+            "FromArea": {
+                "X": 32,
+                "Y": 16,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 32,
+                "Y": 16,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Red Mushroom",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "ZoeyHoshi.ForageCrops/Objects",
+            "FromFile": "VanillaForageCropsAndBushes/assets/objects.png",
+            "FromArea": {
+                "X": 48,
+                "Y": 16,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 48,
+                "Y": 16,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Spice Berry",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "ZoeyHoshi.ForageCrops/Objects",
+            "FromFile": "VanillaForageCropsAndBushes/assets/objects.png",
+            "FromArea": {
+                "X": 64,
+                "Y": 16,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 64,
+                "Y": 16,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Purple Mushroom",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "ZoeyHoshi.ForageCrops/Objects",
+            "FromFile": "VanillaForageCropsAndBushes/assets/objects.png",
+            "FromArea": {
+                "X": 80,
+                "Y": 16,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 80,
+                "Y": 16,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Crystal Fruit",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "ZoeyHoshi.ForageCrops/Objects",
+            "FromFile": "VanillaForageCropsAndBushes/assets/objects.png",
+            "FromArea": {
+                "X": 0,
+                "Y": 32,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 0,
+                "Y": 32,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Magma Cap",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "ZoeyHoshi.ForageCrops/Objects",
+            "FromFile": "VanillaForageCropsAndBushes/assets/objects.png",
+            "FromArea": {
+                "X": 16,
+                "Y": 32,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 16,
+                "Y": 32,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Wild Plum Sapling",
+            "When": {
+                "Seasonal Saplings": true
+            },
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "ZoeyHoshi.ForageCrops/Objects",
+            "FromFile": "VanillaForageCropsAndBushes/assets/objects.png",
+            "FromArea": {
+                "X": 32,
+                "Y": 32,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 32,
+                "Y": 32,
+                "Width": 16,
+                "Height": 16
+            }
+        }
+    ]
+}

@@ -68,13 +68,14 @@ def generate_all_entries(data: dict):
         for entry_name, sprite_index, *rest in data['entries']
     ]
 
-def create_json(data: dict, out_file: str):
+def create_json(data: dict):
     entries_json = {'Changes': generate_all_entries(data)}
-    with open(out_file, mode='wt', newline='\n') as f:
+    with open(data['out_file'], mode='wt', newline='\n') as f:
         json.dump(entries_json, f, indent=4)
         f.write('\n')
 
 vanilla_data = {
+    'out_file': 'src/Vanilla/data/springobjects.json',
     'target': 'Maps/springobjects',
     'from_file': 'Vanilla/assets/springobjects.png',
     'sprite_size_px': 16,
@@ -92,6 +93,7 @@ vanilla_data = {
 }
 
 more_crops_data = {
+    'out_file': 'src/CornucopiaMoreCrops/data/objects.json',
     'target': 'Cornucopia.MoreCrops/Objects',
     'from_file': 'CornucopiaMoreCrops/assets/objects.png',
     'sprite_size_px': 16,
@@ -214,6 +216,7 @@ more_crops_data = {
 }
 
 more_flowers_data = {
+    'out_file': 'src/CornucopiaMoreFlowers/data/objects.json',
     'target': 'Cornucopia.MoreFlowers/Objects',
     'from_file': 'CornucopiaMoreFlowers/assets/objects.png',
     'sprite_size_px': 16,
@@ -271,6 +274,32 @@ more_flowers_data = {
     ]
 }
 
-create_json(vanilla_data, 'src/Vanilla/data/springobjects.json')
-create_json(more_crops_data, 'src/CornucopiaMoreCrops/data/objects.json')
-create_json(more_flowers_data, 'src/CornucopiaMoreFlowers/data/objects.json')
+vanilla_forage_crops_and_bushes_data = {
+    'out_file': 'src/VanillaForageCropsAndBushes/data/objects.json',
+    'target': 'ZoeyHoshi.ForageCrops/Objects',
+    'from_file': 'VanillaForageCropsAndBushes/assets/objects.png',
+    'sprite_size_px': 16,
+    'sprites_per_row': 6,
+    'entries': [
+        ('Cave Carrot', 0),
+        ('Daffodil', 1),
+        ('Dandelion', 2),
+        ('Leek', 3),
+        ('Wild Horseradish', 4),
+        ('Fiddlehead Fern', 5),
+        ('Snow Yam', 6),
+        ('Winter Root', 7),
+        ('Seaweed', 8),
+        ('Red Mushroom', 9),
+        ('Spice Berry', 10),
+        ('Purple Mushroom', 11),
+        ('Crystal Fruit', 12),
+        ('Magma Cap', 13),
+        ('Wild Plum Sapling', 14, Special.SAPLING)
+    ]
+}
+
+create_json(vanilla_data)
+create_json(more_crops_data)
+create_json(more_flowers_data)
+create_json(vanilla_forage_crops_and_bushes_data)

@@ -1,7 +1,7 @@
 {
     "Name": "Seasonal Seeds And Saplings",
     "Author": "jalfje",
-    "Version": "1.0.2",
+    "Version": "1.0.3",
     "Description": "Seasonally colored seeds and saplings for vanilla and crop mods",
     "UniqueID": "jalfje.SeasonalSeedsAndSaplings",
     "UpdateKeys": [ "Nexus:32386" ],
@@ -21,6 +21,11 @@
         {
             "UniqueID": "Cornucopia.MoreFlowers",
             "MinimumVersion": "1.5.4",
+            "IsRequired": false
+        },
+        {
+            "UniqueID": "ZoeyHoshi.ForageCrops",
+            "MinimumVersion": "1.1.6",
             "IsRequired": false
         }
     ]

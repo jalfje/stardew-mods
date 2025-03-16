@@ -30,6 +30,13 @@
                 "HasMod |contains=Cornucopia.MoreFlowers": true
             },
             "FromFile": "CornucopiaMoreFlowers/data/objects.json"
+        },
+        {
+            "Action": "Include",
+            "When": {
+                "HasMod |contains=ZoeyHoshi.ForageCrops": true
+            },
+            "FromFile": "VanillaForageCropsAndBushes/data/objects.json"
         }
     ]
 }

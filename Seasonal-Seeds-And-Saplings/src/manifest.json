@@ -10,22 +10,27 @@
     },
     "Dependencies": [
         {
+            "UniqueID": "furyx639.CustomBush",
+            "IsRequired": false
+        },
+        {
             "UniqueID": "Laula.ColoredSeeds",
             "IsRequired": false
         },
         {
             "UniqueID": "Cornucopia.MoreCrops",
-            "MinimumVersion": "1.5.6",
             "IsRequired": false
         },
         {
             "UniqueID": "Cornucopia.MoreFlowers",
-            "MinimumVersion": "1.5.4",
+            "IsRequired": false
+        },
+        {
+            "UniqueID": "Cornucopia.GrowableForage",
             "IsRequired": false
         },
         {
             "UniqueID": "ZoeyHoshi.ForageCrops",
-            "MinimumVersion": "1.1.6",
             "IsRequired": false
         }
     ]

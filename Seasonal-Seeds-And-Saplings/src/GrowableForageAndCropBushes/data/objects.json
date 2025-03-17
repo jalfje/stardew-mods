@@ -1,0 +1,238 @@
+{
+    "Changes": [
+        {
+            "$comment": "Spring Onion",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.GrowableForage/objects",
+            "FromFile": "GrowableForageAndCropBushes/assets/objects.png",
+            "FromArea": {
+                "X": 32,
+                "Y": 0,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 32,
+                "Y": 0,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Ginger",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.GrowableForage/objects",
+            "FromFile": "GrowableForageAndCropBushes/assets/objects.png",
+            "FromArea": {
+                "X": 48,
+                "Y": 0,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 48,
+                "Y": 0,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Sweet Pea",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.GrowableForage/objects",
+            "FromFile": "GrowableForageAndCropBushes/assets/objects.png",
+            "FromArea": {
+                "X": 64,
+                "Y": 0,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 64,
+                "Y": 0,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Crocus",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.GrowableForage/objects",
+            "FromFile": "GrowableForageAndCropBushes/assets/objects.png",
+            "FromArea": {
+                "X": 80,
+                "Y": 0,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 80,
+                "Y": 0,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Common Mushroom",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.GrowableForage/objects",
+            "FromFile": "GrowableForageAndCropBushes/assets/objects.png",
+            "FromArea": {
+                "X": 0,
+                "Y": 16,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 0,
+                "Y": 16,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Chanterelle",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.GrowableForage/objects",
+            "FromFile": "GrowableForageAndCropBushes/assets/objects.png",
+            "FromArea": {
+                "X": 16,
+                "Y": 16,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 16,
+                "Y": 16,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Morel",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.GrowableForage/objects",
+            "FromFile": "GrowableForageAndCropBushes/assets/objects.png",
+            "FromArea": {
+                "X": 32,
+                "Y": 16,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 32,
+                "Y": 16,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Salmonberry",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.GrowableForage/objects",
+            "FromFile": "GrowableForageAndCropBushes/assets/objects.png",
+            "FromArea": {
+                "X": 48,
+                "Y": 16,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 48,
+                "Y": 16,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Blackberry",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.GrowableForage/objects",
+            "FromFile": "GrowableForageAndCropBushes/assets/objects.png",
+            "FromArea": {
+                "X": 64,
+                "Y": 16,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 64,
+                "Y": 16,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Holly",
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.GrowableForage/objects",
+            "FromFile": "GrowableForageAndCropBushes/assets/objects.png",
+            "FromArea": {
+                "X": 80,
+                "Y": 16,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 80,
+                "Y": 16,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Coconut Sapling",
+            "When": {
+                "Seasonal Saplings": true
+            },
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.GrowableForage/objects",
+            "FromFile": "GrowableForageAndCropBushes/assets/objects.png",
+            "FromArea": {
+                "X": 128,
+                "Y": 0,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 128,
+                "Y": 0,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "$comment": "Hazelnut Sapling",
+            "When": {
+                "Seasonal Saplings": true
+            },
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Cornucopia.GrowableForage/objects",
+            "FromFile": "GrowableForageAndCropBushes/assets/objects.png",
+            "FromArea": {
+                "X": 144,
+                "Y": 0,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 144,
+                "Y": 0,
+                "Width": 16,
+                "Height": 16
+            }
+        }
+    ]
+}

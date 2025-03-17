@@ -92,6 +92,7 @@ vanilla_data = {
     ]
 }
 
+# TODO: Replace grape starter via an objectsreplacement.json and cmct
 more_crops_data = {
     'out_file': 'src/CornucopiaMoreCrops/data/objects.json',
     'target': 'Cornucopia.MoreCrops/Objects',
@@ -274,6 +275,29 @@ more_flowers_data = {
     ]
 }
 
+# TODO: Replace modified bushes via an objectsreplacement.json and cmct
+growable_forage_and_crop_bushes_data = {
+    'out_file': 'src/GrowableForageAndCropBushes/data/objects.json',
+    'target': 'Cornucopia.GrowableForage/objects',
+    'from_file': 'GrowableForageAndCropBushes/assets/objects.png',
+    'sprite_size_px': 16,
+    'sprites_per_row': 10,
+    'entries': [
+        ('Spring Onion', 2),
+        ('Ginger', 3),
+        ('Sweet Pea', 4),
+        ('Crocus', 5),
+        ('Common Mushroom', 10),
+        ('Chanterelle', 11),
+        ('Morel', 12),
+        ('Salmonberry', 13),
+        ('Blackberry', 14),
+        ('Holly', 15),
+        ('Coconut Sapling', 8, Special.SAPLING),
+        ('Hazelnut Sapling', 9, Special.SAPLING)
+    ]
+}
+
 vanilla_forage_crops_and_bushes_data = {
     'out_file': 'src/VanillaForageCropsAndBushes/data/objects.json',
     'target': 'ZoeyHoshi.ForageCrops/Objects',
@@ -302,4 +326,5 @@ vanilla_forage_crops_and_bushes_data = {
 create_json(vanilla_data)
 create_json(more_crops_data)
 create_json(more_flowers_data)
+create_json(growable_forage_and_crop_bushes_data)
 create_json(vanilla_forage_crops_and_bushes_data)
